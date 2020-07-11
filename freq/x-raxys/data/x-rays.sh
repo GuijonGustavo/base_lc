@@ -8,7 +8,7 @@
 # Tue Jan 06 15:47:42 UTC 2020
 #
 
-object=oj287
+object=#object
 freq=x-rays
 
 awk 'BEGIN { FS=","; OFS="\t" } {$1=$1; print}' curve.dat > out.tsv

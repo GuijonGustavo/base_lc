@@ -8,7 +8,7 @@
 # Tue Jan 06 15:47:42 UTC 2020
 
 
-object=oj287
+object=#object
 freq=optical
 
 awk '{ gsub(/</,""); print }' *.txt > out.csv
